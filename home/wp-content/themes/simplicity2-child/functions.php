@@ -19,3 +19,4 @@ if (function_exists('register_sidebar')){
 			'id' => 'top_main_widget'
 	));
 }
+?>
