@@ -9,3 +9,13 @@ function include_parent_skins(){
 add_editor_style();
 
 //以下にSimplicity子テーマ用の関数を書く
+if (function_exists('register_sidebar')){
+	register_sidebar(array(
+			'before_widget' => '<div class="top_main_widget" id="%1$s">'."\n",
+			'after_widget' => '</div>'."\n",
+			'before_title' => '<h3>',
+			'after_title' => '</h3>',
+			'name' => 'トップメイン',
+			'id' => 'top_main_widget'
+	));
+}

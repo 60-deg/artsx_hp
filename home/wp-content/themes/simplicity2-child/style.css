@@ -13,3 +13,10 @@ Version:    20161002
  border-top:1px solid #F3F3F3;
  border-bottom:1px solid #F3F3F3;
 }
+
+/* トップページのみのウィジェット */
+.top_main_widget {
+  background-color:#eee;
+  padding:10px;
+  margin-bottom:10px;
+}
