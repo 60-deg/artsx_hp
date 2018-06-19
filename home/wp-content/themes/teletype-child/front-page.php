@@ -35,10 +35,10 @@ else :
 				get_template_part( 'template-parts/section', 'widgets' );
 
 			elseif ( 'gallery:1' == $section ) :
-				get_template_part( 'template-parts/section', 'widgets' );
+				get_template_part( 'template-parts/section', 'widgets2' );
 
 			elseif ( 'blog:1' == $section ) :
-				get_template_part( 'template-parts/section', 'widgets' );
+				get_template_part( 'template-parts/section', 'widgets3' );
 
 			endif;
 
