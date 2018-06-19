@@ -11,3 +11,15 @@
  Tags: blog, photography, portfolio, two-columns, left-sidebar, right-sidebar, custom-menu, custom-header, custom-background, featured-images, theme-options, post-formats, sticky-post, threaded-comments, translation-ready
  Text Domain:  teletype-child
 */
+
+.services-widget h4,
+.services-widget p {
+	margin-left: 70px;
+}
+
+.services-widget h4 {
+    font-size: 18px;
+    letter-spacing: 2px;
+		clear: none;
+		text-align: center;
+}
