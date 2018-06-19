@@ -156,7 +156,7 @@ function teletype_widgets_init() {
 		'name'          => esc_html__( 'Front Page Section 3', 'teletype' ),
 		'id'            => 'home-widgets3',
 		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
-		'before_widget' => teletype_before_one(),
+		'before_widget' => '<div id="%1$s" class="widget %2$s col-md-12 widgets-section">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<div class="section-title center"><h2>',
 		'after_title'   => '</h2></div>',
