@@ -117,8 +117,8 @@ function teletype_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h5 class="widget-title">',
-		'after_title'   => '</h5>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 	// Post Sidebar
 	register_sidebar( array(
@@ -127,7 +127,7 @@ function teletype_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h5 class="widget-title">',
+		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h5>',
 	) );
 	// Front Page Widgets Section
@@ -137,8 +137,8 @@ function teletype_widgets_init() {
 		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
 		'before_widget' => teletype_before_one(),
 		'after_widget'  => '</div>',
-		'before_title'  => '<h4>',
-		'after_title'   => '</h4>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
 	) );
 
 	// !!!modified!!!! added widgets sections
@@ -148,8 +148,8 @@ function teletype_widgets_init() {
 		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
 		'before_widget' => teletype_before_one(),
 		'after_widget'  => '</div>',
-		'before_title'  => '<h4>',
-		'after_title'   => '</h4>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
 	) );
 
 	register_sidebar( array(
@@ -158,8 +158,8 @@ function teletype_widgets_init() {
 		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
 		'before_widget' => teletype_before_one(),
 		'after_widget'  => '</div>',
-		'before_title'  => '<h4>',
-		'after_title'   => '</h4>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
 	) );
 
 	// modified part end
