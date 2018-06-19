@@ -140,6 +140,30 @@ function teletype_widgets_init() {
 		'before_title'  => '<h4>',
 		'after_title'   => '</h4>',
 	) );
+
+	// !!!modified!!!! added widgets sections
+	register_sidebar( array(
+		'name'          => esc_html__( 'Front Page Section 2', 'teletype' ),
+		'id'            => 'home-widgets2',
+		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
+		'before_widget' => teletype_before_one(),
+		'after_widget'  => '</div>',
+		'before_title'  => '<h4>',
+		'after_title'   => '</h4>',
+	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'Front Page Section 3', 'teletype' ),
+		'id'            => 'home-widgets3',
+		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
+		'before_widget' => teletype_before_one(),
+		'after_widget'  => '</div>',
+		'before_title'  => '<h4>',
+		'after_title'   => '</h4>',
+	) );
+
+	// modified part end
+
 }
 add_action( 'widgets_init', 'teletype_widgets_init' );
 
