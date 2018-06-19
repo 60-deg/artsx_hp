@@ -137,8 +137,8 @@ function teletype_widgets_init() {
 		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
 		'before_widget' => teletype_before_one(),
 		'after_widget'  => '</div>',
-		'before_title'  => '<h2>"',
-		'after_title'   => '"::after</h2>',
+		'before_title'  => '<div class="section-title center"><h2>',
+		'after_title'   => '</h2></div>',
 	) );
 
 	// !!!modified!!!! added widgets sections
@@ -148,8 +148,8 @@ function teletype_widgets_init() {
 		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
 		'before_widget' => teletype_before_one(),
 		'after_widget'  => '</div>',
-		'before_title'  => '<h2>"',
-		'after_title'   => '"::after</h2>',
+		'before_title'  => '<div class="section-title center"><h2>',
+		'after_title'   => '</h2></div>',
 	) );
 
 	register_sidebar( array(
@@ -158,8 +158,8 @@ function teletype_widgets_init() {
 		'description'   => esc_html__( 'Three-column section of the template Front Page. The best place for Teletype theme widgets.', 'teletype' ),
 		'before_widget' => teletype_before_one(),
 		'after_widget'  => '</div>',
-		'before_title'  => '<h2>"',
-		'after_title'   => '"::after</h2>',
+		'before_title'  => '<div class="section-title center"><h2>',
+		'after_title'   => '</h2></div>',
 	) );
 
 	// modified part end
