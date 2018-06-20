@@ -51,7 +51,8 @@
 				<?php the_excerpt(); ?>
 			<?php endif; ?>
 			<div class="single-caption">
-				<?php the_title( '<h1>', '</h1>' ); ?>
+				<!-- koko????? -->
+				<?php the_title( '<h1>', '</h1><hr>' ); ?>
 			</div>
         </div>
 		<span class="overlay-white"></span>
