@@ -1,12 +1,12 @@
 /*
  Theme Name:   Teletype Child
- Theme URI:    http://example.com
+ Theme URI:	http://example.com
  Description:  Teletype Child Theme
- Author:       po
+ Author:	   po
  Author URI:   http://example.com
- Template:     teletype
- Version:      1.0.0
- License:      GNU General Public License v2 or later
+ Template:	 teletype
+ Version:	  1.0.0
+ License:	  GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags: blog, photography, portfolio, two-columns, left-sidebar, right-sidebar, custom-menu, custom-header, custom-background, featured-images, theme-options, post-formats, sticky-post, threaded-comments, translation-ready
  Text Domain:  teletype-child
@@ -18,54 +18,58 @@
 }
 
 .services-widget h4 {
-    font-size: 18px;
-    letter-spacing: 2px;
-		clear: none;
-		text-align: center;
+	font-size: 18px;
+	letter-spacing: 2px;
+	clear: none;
+	text-align: center;
 }
 
+
 /*events list*/
-.events_list{
-  margin-top: 30px;
-  margin-bottom: 20px;
-  width: 70%;
-  list-style-type:none;
-  color: #1e366a;
-  border-top: dotted #1e366a 1px;/*上のボーダー*/
-  border-bottom: dotted #1e366a 1px;/*下のボーダー*/
-  padding: 0.5em 0 0.5em 1.5em;
- }
- .more{
-   position: relative;
-   display: inline-block;
-   font-weight: bold;
-   padding: 0.25em 0;
-   text-decoration: none;
-   color: #67c5ff;   
- }  
- .more a{
-        margin: 0;
-        width: 100px;
-        background: #fff;
-        padding: 3px 0;
-        text-align: center;
-        color: #67c5ff;
-        text-decoration:none;
- }
- 
- .more:before{
-   position: absolute;
-   content: '';
-   width: 100%;
-   height: 4px;
-   top:100%;
-   left: 0;
-   border-radius: 3px;
-   background:#67c5ff;
-   transition: .2s;
- }
- .more:hover:before {
-    top: -webkit-calc(100% - 3px);
-    top: calc(100% - 3px);
+
+.events_list {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 70%;
+	list-style-type: none;
+	color: #1e366a;
+	border-top: dotted #1e366a 1px;
+	/*上のボーダー*/
+	border-bottom: dotted #1e366a 1px;
+	/*下のボーダー*/
+	padding: 0.5em 0 0.5em 1.5em;
 }
-      
+
+.more {
+	position: relative;
+	display: inline-block;
+	padding: 0.25em 0;
+	color: #67c5ff;
+}
+
+.more a {
+	margin: 0;
+	width: 100px;
+	background: #fff;
+	padding: 3px 0;
+	text-align: center;
+	color: #67c5ff;
+	text-decoration: none;
+}
+
+.more:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 3px;
+	top: 100%;
+	left: 0;
+	border-radius: 2px;
+	background: #67c5ff;
+	transition: .2s;
+}
+
+.more:hover:before {
+	top: -webkit-calc(100% - 3px);
+	top: calc(100% - 3px);
+}
