@@ -46,7 +46,9 @@
 }
 .post-7{
 	width: 70%;
-	margin: 30px 15% 20px 15%;
+	margin: 30px 15% 20px 15%;    
+	padding: 5% 5% 8% 5%;
+	background: ghostwhite;
 }
 
 /*events list*/
@@ -82,7 +84,7 @@
 .more a {
 	margin: 0;
 	width: 100px;
-	background: #fff;
+	background: transparent;
 	padding: 3px 0;
 	text-align: center;
 	color: #f85f06;
