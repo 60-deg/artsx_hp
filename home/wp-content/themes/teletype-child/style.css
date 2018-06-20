@@ -130,7 +130,7 @@
 .epyt-gallery-thumb{
 	padding: 15px 5px 5px;
 }
-
-.epyt-gallery-subscribe{
-	padding: 15px 0 20px 0;
-}*/
+*/
+.videos_list.epyt-gallery-subscribe{
+	display: none;
+}
