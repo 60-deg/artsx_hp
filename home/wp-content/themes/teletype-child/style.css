@@ -24,14 +24,22 @@
 	text-align: center;
 }
 
+/* about us*/
+.entry-content{
+	margin: 30px 15% 20px 15%;
+	width: 70%;
+	list-style-type: none;
+	color: #1e366a;
+	text-align: left;
+}
+.post-7{
+	margin: 0;
+}
 
 /*events list*/
 
 .events_list {
-	margin-top: 30px;
-	margin-bottom: 20px;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin:30px 15% 20px 15%;
 	width: 70%;
 	list-style-type: none;
 	color: #1e366a;
