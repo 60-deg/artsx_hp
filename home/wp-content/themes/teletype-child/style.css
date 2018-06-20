@@ -28,12 +28,12 @@
 .entry-content{
 	font-family: "Source Code Pro", Courier, monospace;
 	margin: 30px 15% 20px 15%;
-	width: 70%;
 	list-style-type: none;
 	color: #1e366a;
 	text-align: left;
 }
 .post-7{
+	width: 70%;
 	margin: 0;
 }
 
@@ -123,6 +123,7 @@
 .epyt-pagination{
 	font-family: "Source Code Pro", Courier, monospace;
 }
+/*
 .epyt-pagination:first-child{
 	display: none;
 }
@@ -130,3 +131,7 @@
 .epyt-gallery-thumb{
 	padding: 15px 5px 5px;
 }
+
+.epyt-gallery-subscribe{
+	padding: 15px 0 20px 0;
+}*/
