@@ -88,7 +88,7 @@
         <div class="head-content">
 				<?php
 					the_archive_title( '<h1>', '</h1><hr>' );
-					//the_archive_description( '<p class="taxonomy-description">', '</p>' );
+					the_archive_description( '<p class="taxonomy-description">', '</p>' );
 				?>
         </div>
 		<span class="overlay-white"></span>
@@ -98,7 +98,7 @@
 	// Search
 	if( is_search() ) : ?>
 	<!-- Headline Section -->
-	<section id="headline" class="text-center<?php if( !empty( $class ) ) { echo esc_html( $class ); } ?>"<?php teletype_header_bg(); ?>>
+	<section id="headline" class="text-center<?php //if( !empty( $class ) ) { echo esc_html( $class ); } ?>"<?php teletype_header_bg(); ?>>
         <div class="head-content">
 			<h1><?php printf( esc_html__( 'Search Results for: %s', 'teletype' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
         </div>
