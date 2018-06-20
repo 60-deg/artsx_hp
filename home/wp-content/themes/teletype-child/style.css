@@ -27,14 +27,13 @@
 /* about us*/
 .entry-content{
 	font-family: "Source Code Pro", Courier, monospace;
-	margin: 30px 15% 20px 15%;
 	list-style-type: none;
 	color: #1e366a;
 	text-align: left;
 }
 .post-7{
 	width: 70%;
-	margin: 0;
+	margin: 30px 15% 20px 15%;
 }
 
 /*events list*/
