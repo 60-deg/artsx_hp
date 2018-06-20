@@ -58,6 +58,8 @@
 }
 
 .more {
+	font-family: "Source Code Pro", Courier, monospace;
+	text-align: center;
 	float: right;
 	position: relative;
 	display: inline-block;
