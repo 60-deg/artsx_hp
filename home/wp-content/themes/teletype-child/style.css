@@ -118,7 +118,12 @@
 	font-family: "Source Code Pro", Courier, monospace;
 }
 
-/*movies*/
+/*potos*/
+#custom_html-4{
+	margin-top: 10%;
+}
+
+/*videos*/
 .epyt-pagination{
 	font-family: "Source Code Pro", Courier, monospace;
 }
@@ -131,6 +136,7 @@
 	padding: 15px 5px 5px;
 }
 */
-.videos_list > div > div:second-child{
-	display: none;
+
+#custom_html-3{
+	margin-top: 10%;
 }
