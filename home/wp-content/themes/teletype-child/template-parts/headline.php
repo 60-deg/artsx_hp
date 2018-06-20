@@ -23,7 +23,7 @@
 		$bgimage = $thumbnail[0];
 	}
 	if ( is_home() && ! get_theme_mod( 'blog-headline-content' ) && empty( $bgimage ) || is_front_page() && ! get_theme_mod( 'headline-text' ) && empty( $bgimage ) ) {
-		$class = ' space';
+		//$class = ' space';
 	}
 
 	if( is_singular( array( 'post', 'portfolio' ) ) && !is_active_sidebar( 'sidebar-post' ) || !is_front_page() && is_singular( 'page' ) && !is_active_sidebar( 'sidebar-page' ) ) :
@@ -98,7 +98,7 @@
 	// Search
 	if( is_search() ) : ?>
 	<!-- Headline Section -->
-	<section id="headline" class="text-center<?php //if( !empty( $class ) ) { echo esc_html( $class ); } ?>"<?php teletype_header_bg(); ?>>
+	<section id="headline" class="text-center<?php if( !empty( $class ) ) { echo esc_html( $class ); } ?>"<?php teletype_header_bg(); ?>>
         <div class="head-content">
 			<h1><?php printf( esc_html__( 'Search Results for: %s', 'teletype' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
         </div>
