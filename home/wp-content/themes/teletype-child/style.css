@@ -120,8 +120,10 @@
 
 
 /*projects*/
-.projects.works{
+.projects{
 	font-family: "Source Code Pro", Courier, monospace;
+	width: 70%;
+	margin: 30px 15% 20px 15%;
 }
 
 /*photos*/
