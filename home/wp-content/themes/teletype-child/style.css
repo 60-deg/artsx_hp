@@ -90,6 +90,26 @@
 	top: calc(100% - 3px);
 }
 
+/*news list*/
+.news_list{
+	font-family: "Source Code Pro", Courier, monospace;
+	margin:30px 15% 20px 15%;
+	width: 70%;
+	list-style-type: none;
+	color: #1e366a;
+}
+
+.news_list li {
+	border-bottom: dotted #1e366a 1px;
+	/*下のボーダー*/
+	padding: 0.5em 0 0.5em 1.5em;
+}
+
+.news_list li:first-child {
+	border-top: #808080 dotted 1px;
+}
+
+
 /*projects*/
 .projects.works{
 	font-family: "Source Code Pro", Courier, monospace;
