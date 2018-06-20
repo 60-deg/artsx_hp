@@ -24,6 +24,12 @@
 	text-align: center;
 }
 
+.section-title.center {
+	padding: 30px 0;
+	text-align: center;
+	margin-top: 10%;
+}
+
 /* about us*/
 .entry-content{
 	font-family: "Source Code Pro", Courier, monospace;
@@ -118,10 +124,7 @@
 	font-family: "Source Code Pro", Courier, monospace;
 }
 
-/*potos*/
-#custom_html-4{
-	margin-top: 10%;
-}
+/*photos*/
 
 /*videos*/
 .epyt-pagination{
@@ -137,6 +140,3 @@
 }
 */
 
-#custom_html-3{
-	margin-top: 10%;
-}
