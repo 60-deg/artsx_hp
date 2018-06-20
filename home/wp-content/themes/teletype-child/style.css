@@ -131,6 +131,6 @@
 	padding: 15px 5px 5px;
 }
 */
-.videos_list.epyt-gallery.epyt-gallery-subscribe{
+.videos_list > div > div:second-child{
 	display: none;
 }
