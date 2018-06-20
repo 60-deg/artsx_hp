@@ -118,3 +118,11 @@
 .projects.works{
 	font-family: "Source Code Pro", Courier, monospace;
 }
+
+/*movies*/
+.epyt-pagination{
+	font-family: "Source Code Pro", Courier, monospace;
+}
+.epyt-pagination:first-child{
+	display: none;
+}
