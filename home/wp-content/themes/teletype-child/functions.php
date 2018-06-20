@@ -24,7 +24,7 @@ function my_archive_title($title) {
     } elseif ( is_tag() ) { 
         $title = single_tag_title( '', false ); 
     } 
-    $title = $title. 'の記事一覧'; 
+    $title = $title. ''; 
     return $title; 
 }; 
 add_filter( 'get_the_archive_title', 'my_archive_title');
