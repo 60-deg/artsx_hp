@@ -29,6 +29,13 @@
 	text-align: center;
 	margin-top: 10%;
 }
+.section-title h2:after {
+	border-top: 2px solid #222222;
+	content: '';
+	display: block;
+	width: 10%;
+	margin: 20px auto;
+}
 
 /* about us*/
 .entry-content{
