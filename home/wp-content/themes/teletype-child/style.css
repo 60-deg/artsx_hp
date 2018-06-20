@@ -43,11 +43,9 @@
 	width: 70%;
 	list-style-type: none;
 	color: #1e366a;
-	text-align: right;
 }
 
 .events_list li {
-	text-align: left;
 	border-bottom: dotted #1e366a 1px;
 	/*下のボーダー*/
 	padding: 0.5em 0 0.5em 1.5em;
@@ -58,6 +56,7 @@
 }
 
 .more {
+	float: right;
 	position: relative;
 	display: inline-block;
 	padding: 0.75em 0 0.25em 0;
