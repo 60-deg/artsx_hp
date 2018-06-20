@@ -126,3 +126,7 @@
 .epyt-pagination:first-child{
 	display: none;
 }
+
+.epyt-gallery-thumb{
+	padding: 15px 5px 5px;
+}
