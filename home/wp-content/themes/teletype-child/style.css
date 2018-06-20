@@ -26,6 +26,7 @@
 
 /* about us*/
 .entry-content{
+	font-family: "Source Code Pro", Courier, monospace;
 	margin: 30px 15% 20px 15%;
 	width: 70%;
 	list-style-type: none;
@@ -39,6 +40,7 @@
 /*events list*/
 
 .events_list {
+	font-family: "Source Code Pro", Courier, monospace;
 	margin:30px 15% 20px 15%;
 	width: 70%;
 	list-style-type: none;
