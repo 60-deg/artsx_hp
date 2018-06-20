@@ -89,3 +89,8 @@
 	top: -webkit-calc(100% - 3px);
 	top: calc(100% - 3px);
 }
+
+/*projects*/
+.projects.works{
+	font-family: "Source Code Pro", Courier, monospace;
+}
