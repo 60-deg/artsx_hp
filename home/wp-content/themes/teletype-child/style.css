@@ -29,6 +29,13 @@
 	text-align: center;
 	margin-top: 10%;
 }
+.section-title h2 {
+	/* sticky */
+	position: -webkit-sticky; /* Safari用 */
+  position:sticky; /* 要素をスクロールに応じて固定 */
+  top:0; /* 縦スクロールに追従 */
+  z-index: 100; /* z-indexで最前面に持ってくる */
+}
 .section-title h2:after {
 	border-top: 2px solid #222222;
 	content: '';
