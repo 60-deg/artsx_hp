@@ -29,7 +29,7 @@
 	text-align: center;
 	margin-top: 10%;
 }
-.section-title h2 {
+.section-title h2{
 	/* sticky */
 	position: -webkit-sticky; /* Safari用 */
   position:sticky; /* 要素をスクロールに応じて固定 */
@@ -37,11 +37,22 @@
   z-index: 100; /* z-indexで最前面に持ってくる */
 }
 .section-title h2:after {
+  position: absolute;
+  top: 140%;
+  right: 0;
+  left: 0;
+  margin: auto;
+/*   left: 50%;
+  transform: translateX(-50%); */
 	border-top: 2px solid #222222;
 	content: '';
 	display: block;
 	width: 2.5em;
-	margin: 20px auto;
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.section-title h2:hover:after {
+  top: 120%;
+  width: 5em;
 }
 
 /* about us*/
@@ -158,3 +169,20 @@
 }
 */
 
+
+
+/* 個別ページ*/
+
+
+/* ./about-us */
+#headline h1{
+	/* sticky */
+	position: -webkit-sticky; /* Safari用 */
+  position:sticky; /* 要素をスクロールに応じて固定 */
+  top:0; /* 縦スクロールに追従 */
+  z-index: 100; /* z-indexで最前面に持ってくる */
+}
+#main{
+	width: 80%;
+	margin-left: 10%;
+}
