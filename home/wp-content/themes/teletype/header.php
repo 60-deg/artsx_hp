@@ -55,7 +55,7 @@
 	}
 	?>
 		<?php if ( 1 != get_theme_mod( 'disable-site-title', 0 ) ) { ?>
-			<span class="site-title"><?php bloginfo( 'name' ); ?></span>
+			<span class="site-title"><img src="http://arts-x.sakura.ne.jp/home/wp-content/uploads/2018/07/logo_shadow_150.png" alt="ArtsX" class="site-title-img"></span>
 		<?php } ?>
 	</a>
 		<?php if ( 1 != get_theme_mod( 'disable-site-tagline', 0 ) ) { ?>
