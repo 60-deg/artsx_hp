@@ -11,7 +11,9 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="entry-content">
-	<?php teletype_posted_on(); ?>
+		<div class="posted-on-wrapper">
+			<?php teletype_posted_on(); ?>
+		</div>
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
