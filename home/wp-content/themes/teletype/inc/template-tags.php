@@ -96,7 +96,7 @@ function teletype_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		esc_html_x( 'on %s', 'post date', 'teletype' ),
+		esc_html_x( '%s', 'post date', 'teletype' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
@@ -105,7 +105,7 @@ function teletype_posted_on() {
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
-	echo '<span class="byline"> ' . $byline . '</span><span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
+	/*echo '<span class="byline"> ' . $byline . '</span><span class="posted-on">' . $posted_on . '</span>';*/ // WPCS: XSS OK.
 
 }
 endif;
@@ -119,9 +119,9 @@ function teletype_entry_footer() {
 	if ( 'post' === get_post_type() ) {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( esc_html__( ', ', 'teletype' ) );
-		if ( $categories_list && teletype_categorized_blog() ) {
+		/*if ( $categories_list && teletype_categorized_blog() ) {
 			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'teletype' ) . '</span>', $categories_list ); // WPCS: XSS OK.
-		}
+		}*/
 
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'teletype' ) );
