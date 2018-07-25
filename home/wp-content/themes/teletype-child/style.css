@@ -220,3 +220,12 @@ a:link:hover {
 	text-align: right;
   padding-right: 1.5em;
 }
+
+#post-single > #main{
+	width: 90%;
+	position: relative;
+	max-width: 600px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
