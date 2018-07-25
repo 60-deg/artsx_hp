@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+<?php teletype_posted_on(); ?>
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(
@@ -27,7 +27,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php teletype_posted_on(); ?>
+		
 		<?php teletype_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
