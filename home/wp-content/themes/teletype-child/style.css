@@ -213,3 +213,10 @@ a:link:hover {
 #main{
 	width: 100%;
 }
+
+/* ブログページ*/
+/* single post */
+.posted-on-wrapper{
+	text-align: right;
+  padding-right: 1.5em;
+}
