@@ -12,6 +12,16 @@
  Text Domain:  teletype-child
 */
 
+a{
+	transition: 0.3s ease;
+}
+a:link {
+	color: #6e6e6e;
+}
+a:link:hover {
+	color: #6e6e6e9a;
+}
+
 .services-widget h4,
 .services-widget p {
 	margin-left: 70px;
@@ -91,6 +101,11 @@
 
 .events_list li:first-child {
 	border-top: #808080 dotted 1px;
+}
+
+.events_title{
+	font-size: 16px;
+	padding-left: 0.5em;
 }
 
 .more {
