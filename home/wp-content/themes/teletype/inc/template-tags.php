@@ -20,7 +20,8 @@ if ( ! function_exists( 'teletype_header_bg' ) ) :
 			$bgimage = get_header_image();
 		}
 		if( is_singular() && $thumbnail ) {
-			$bgimage = $thumbnail[0];
+			$bgimage = get_header_image();
+			//$bgimage = $thumbnail[0];
 		}
 		if( is_singular() && !$thumbnail ) {
 			$bgimage = get_header_image();
