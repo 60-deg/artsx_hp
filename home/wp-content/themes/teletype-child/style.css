@@ -12,6 +12,10 @@
  Text Domain:  teletype-child
 */
 
+a {
+	color: #6e6e6e;
+}
+
 .services-widget h4,
 .services-widget p {
 	margin-left: 70px;
