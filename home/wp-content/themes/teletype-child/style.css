@@ -93,6 +93,11 @@
 	border-top: #808080 dotted 1px;
 }
 
+.events_title{
+	font-size: 16px;
+	padding-left: 0.5em;
+}
+
 .more {
 	font-family: "Source Code Pro", Courier, monospace;
 	text-align: center;
