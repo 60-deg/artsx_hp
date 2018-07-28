@@ -21,10 +21,10 @@ get_header(); ?>
 
 			get_template_part( 'template-parts/content', 'single' );
 
-			the_post_navigation( array(
+			/*the_post_navigation( array(
 					    'next_text' => esc_html__( 'Next: %title', 'teletype' ),
 					    'prev_text' => esc_html__( 'Prev: %title', 'teletype' ),
-					) );
+					) );*/
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
