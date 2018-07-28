@@ -14,7 +14,8 @@
 		$bgimage = get_header_image();
 	}
 	if( is_singular() && $thumbnail ) {
-		$bgimage = $thumbnail[0];
+		//$bgimage = $thumbnail[0];
+		$bgimage = get_header_image();
 	}
 	if( is_singular() && !$thumbnail ) {
 		$bgimage = get_header_image();
