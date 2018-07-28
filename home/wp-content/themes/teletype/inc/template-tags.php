@@ -15,17 +15,18 @@ if ( ! function_exists( 'teletype_header_bg' ) ) :
 		global $post;
 		// Set header Image
 		$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id(), 'teletype-header' );
+		
+		$bgimage = get_header_image();
 
-		if( !is_singular() ) {
+		/*if( !is_singular() ) {
 			$bgimage = get_header_image();
 		}
 		if( is_singular() && $thumbnail ) {
-			$bgimage = get_header_image();
-			//$bgimage = $thumbnail[0];
+			$bgimage = $thumbnail[0];
 		}
 		if( is_singular() && !$thumbnail ) {
 			$bgimage = get_header_image();
-		}
+		}*/
 	if( !empty( $bgimage ) ) {
 		echo ' style="background: url(' . esc_url( $bgimage ) . ');"';
 	}

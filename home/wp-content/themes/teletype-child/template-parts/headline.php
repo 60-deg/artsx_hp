@@ -10,16 +10,16 @@
 	// Set header Image
 	$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id(), 'teletype-header' );
 
-	if( !is_singular() ) {
+	$bgimage = get_header_image();
+	/*if( !is_singular() ) {
 		$bgimage = get_header_image();
 	}
 	if( is_singular() && $thumbnail ) {
-		//$bgimage = $thumbnail[0];
-		$bgimage = get_header_image();
+		$bgimage = $thumbnail[0];
 	}
 	if( is_singular() && !$thumbnail ) {
 		$bgimage = get_header_image();
-	}
+	}*/
 	if( is_page_template( 'templates/landing-page.php' ) ) {
 		$bgimage = $thumbnail[0];
 	}
