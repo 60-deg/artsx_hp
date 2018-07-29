@@ -14,7 +14,7 @@
 			if ( get_theme_mod( 'section-widgets-title' )=="Upcoming Events" ){ ?>
 				<a href="http://arts-x.sakura.ne.jp/upcoming-events/"><h2> <?php echo esc_html( get_theme_mod( 'section-widgets-title' ) ) ?> </h2></a>;
 			<?php }else{ ?>
-				<h2><?php esc_html( get_theme_mod( 'section-widgets-title' ) ) ?></h2>;
+				<h2><a href="http://arts-x.sakura.ne.jp/"><?php esc_html( get_theme_mod( 'section-widgets-title' ) ) ?></a></h2>;
 			<?php 
 				} 
 			?>
