@@ -34,7 +34,7 @@
 	<section id="headline" class="text-center"<?php teletype_header_bg(); ?>>
         <div class="head-content">
 									<!-- single page title -->
-            			<?php the_category( '<h1>', '</h1><hr>' ); ?>
+            			<h1><?php get_the_category(); ?></h1><hr>
             			<?php if ( has_excerpt() ) : ?>
 				<?php the_excerpt(); ?>
 			<?php endif; ?>
