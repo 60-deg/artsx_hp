@@ -34,12 +34,10 @@
 	<section id="headline" class="text-center"<?php teletype_header_bg(); ?>>
         <div class="head-content">
 									<!-- single page title -->
-            			<h1>
-										<?php 
+            			<h1><?php 
 											$category = get_the_category(); 
 											echo $category[0]->name; 
-										?>
-									</h1><hr>
+										?></h1><hr>
             			<?php if ( has_excerpt() ) : ?>
 				<?php the_excerpt(); ?>
 			<?php endif; ?>
