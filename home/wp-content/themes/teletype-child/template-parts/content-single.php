@@ -15,7 +15,7 @@
 			<?php teletype_posted_on(); ?>
 		</div>
 		<?php
-			echo the_title( '<h2>', '</h2><hr>' );
+			echo the_title( '<h1>', '</h1><hr>' );
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( esc_html__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'teletype' ), array( 'span' => array( 'class' => array() ) ) ),
