@@ -32,8 +32,9 @@
 
 	<!-- Headline Section -->
 	<section id="headline" class="text-center"<?php teletype_header_bg(); ?>>
-        <div class="head-content koko">
-            			<?php the_title( '<h1>', '</h1><hr>' ); ?>
+        <div class="head-content">
+									<!-- single page title -->
+            			<?php the_category( '<h1>', '</h1><hr>' ); ?>
             			<?php if ( has_excerpt() ) : ?>
 				<?php the_excerpt(); ?>
 			<?php endif; ?>
@@ -52,7 +53,6 @@
 				<?php the_excerpt(); ?>
 			<?php endif; ?>
 			<div class="single-caption">
-				<!-- koko????? -->
 				<?php the_title( '<h1>', '</h1><hr>' ); ?>
 			</div>
         </div>
