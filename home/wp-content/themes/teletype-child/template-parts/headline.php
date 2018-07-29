@@ -32,7 +32,7 @@
 
 	<!-- Headline Section -->
 	<section id="headline" class="text-center"<?php teletype_header_bg(); ?>>
-        <div class="head-content">
+        <div class="head-content singular-post singular-portfolio">
 									<!-- single page title -->
             			<h1><?php 
 											$category = get_the_category(); 
