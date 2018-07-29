@@ -230,13 +230,13 @@ a:link:hover {
   margin: auto;
 }
 
-.head-content .singular-post{
+.head-content.singular-post{
 	padding-top: 16%;
   padding-bottom: 5%;
 }
-.head-content .singular-post h1{
+.head-content.singular-post h1{
 	margin-bottom: 0.3em;
 }
-.head-content .singular-post hr{
+.head-content.singular-post hr{
 	margin: auto;
 }
