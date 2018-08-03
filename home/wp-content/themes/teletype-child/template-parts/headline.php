@@ -26,24 +26,33 @@
 	if ( is_home() && ! get_theme_mod( 'blog-headline-content' ) && empty( $bgimage ) || is_front_page() && ! get_theme_mod( 'headline-text' ) && empty( $bgimage ) ) {
 		$class = ' space';
 	}
+	
+	if( is_page() && (is_singular( array( 'post', 'portfolio' ) ) && !is_active_sidebar( 'sidebar-post' ) || !is_front_page() && is_singular( 'page' ) && !is_active_sidebar( 'sidebar-page' ) )) :
+		?>
+		
+			<!-- Headline Section Kotei -->
+			<section id="headline" class="text-center"<?php teletype_header_bg(); ?>>
+				<div class="head-content">
+								<?php the_title( '<h1>', '</h1><hr>' ); ?>
+								<?php if ( has_excerpt() ) : ?>
+						<?php the_excerpt(); ?>
+					<?php endif; ?>
+				</div>
+			<span class="overlay-white"></span>
+			</section>
+		<?php
+	endif;
 
-	if( is_singular( array( 'post', 'portfolio' ) ) && !is_active_sidebar( 'sidebar-post' ) || !is_front_page() && is_singular( 'page' ) && !is_active_sidebar( 'sidebar-page' ) ) :
+	if( !is_page() && (is_singular( array( 'post', 'portfolio' ) ) && !is_active_sidebar( 'sidebar-post' ) || !is_front_page() && is_singular( 'page' ) && !is_active_sidebar( 'sidebar-page' ) ) ) :
 ?>
 
-	<!-- Headline Section -->
+	<!-- Headline Section Blog -->
 	<section id="headline" class="text-center"<?php teletype_header_bg(); ?>>
         <div class="head-content singular-post singular-portfolio">
 									<!-- single page title -->
             			<h1><?php
-											if (is_page()){
-												// kotei
-												echo the_title( '<h1>', '</h1><hr>' );
-											}else{
-												// blog
-												echo "<!-- blog -->";
-												$category = get_the_category(); 
-												echo $category[0]->name; 
-											}
+											$category = get_the_category(); 
+											echo $category[0]->name;
 										?></h1><hr>
             			<?php if ( has_excerpt() ) : ?>
 				<?php the_excerpt(); ?>
