@@ -13,7 +13,7 @@
 */
 
 @font-face {
-  font-family: '筑紫A丸ゴシック';
+  font-family: "筑紫A丸ゴシック";
   src: url("./fonts/TsukushiAMaruGothic.woff2") format("woff2"), url("./fonts/TsukushiAMaruGothic.woff") format("woff");
 }
 
