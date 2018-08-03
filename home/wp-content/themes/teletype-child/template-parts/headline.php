@@ -35,7 +35,7 @@
         <div class="head-content singular-post singular-portfolio">
 									<!-- single page title -->
             			<h1><?php
-											if (is_front_page()){
+											if (is_page()){
 												// kotei
 												echo the_title( '<h1>', '</h1><hr>' );
 											}else{
