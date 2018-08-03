@@ -40,6 +40,7 @@
 												echo the_title( '<h1>', '</h1><hr>' );
 											}else{
 												// blog
+												echo "<!-- blog -->";
 												$category = get_the_category(); 
 												echo $category[0]->name; 
 											}
