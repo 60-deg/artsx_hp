@@ -34,9 +34,15 @@
 	<section id="headline" class="text-center"<?php teletype_header_bg(); ?>>
         <div class="head-content singular-post singular-portfolio">
 									<!-- single page title -->
-            			<h1><?php 
-											$category = get_the_category(); 
-											echo $category[0]->name; 
+            			<h1><?php
+											if (is_front_page()){
+												// kotei
+												echo the_title( '<h1>', '</h1><hr>' );
+											}else{
+												// blog
+												$category = get_the_category(); 
+												echo $category[0]->name; 
+											}
 										?></h1><hr>
             			<?php if ( has_excerpt() ) : ?>
 				<?php the_excerpt(); ?>
