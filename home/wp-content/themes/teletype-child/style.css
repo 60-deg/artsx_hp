@@ -124,6 +124,10 @@ a:link:hover {
 	border-top: #808080 dotted 1px;
 }
 
+.events_list > .more{
+	margin: 1em;
+}
+
 .events_title{
 	font-size: 16px;
 	padding-left: 0.5em;
@@ -197,6 +201,9 @@ a:link:hover {
 	border-top: #808080 dotted 1px;
 }
 
+.news_list > .more{
+	margin: 1em;
+}
 
 /*projects*/
 .projects{
