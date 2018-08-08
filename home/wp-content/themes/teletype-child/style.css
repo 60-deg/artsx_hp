@@ -279,14 +279,14 @@ a:link:hover {
   margin: auto;
 }
 
-#headline .head-content.singular-post{
+#headline .head-content{
 	padding-top: 16%;
   padding-bottom: 5%;
 }
-#headline .head-content.singular-post h1{
+#headline .head-content h1{
 	margin-bottom: 0.3em;
 }
-#headline .head-content.singular-post hr{
+#headline .head-content hr{
 	margin: auto;
 }
 
